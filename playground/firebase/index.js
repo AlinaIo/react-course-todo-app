@@ -1,10 +1,12 @@
 import firebase from 'firebase';
 
 var config = {
-  apiKey: "AIzaSyD_9fsTH8TiSdhYGD_4mzGbzwDxA7vW5w0",
-  authDomain: "mead-todo-app-23821.firebaseapp.com",
-  databaseURL: "https://mead-todo-app-23821.firebaseio.com",
-  storageBucket: "mead-todo-app-23821.appspot.com",
+  apiKey: "AIzaSyCS1r97XBu5E9fySlrmX2K7M745WCq2E8c",
+  authDomain: "todoapp-d1d4b.firebaseapp.com",
+  databaseURL: "https://todoapp-d1d4b.firebaseio.com",
+  // projectId: "todoapp-d1d4b",
+  storageBucket: "todoapp-d1d4b.appspot.com",
+  // messagingSenderId: "527261099747"
 };
 firebase.initializeApp(config);
 
